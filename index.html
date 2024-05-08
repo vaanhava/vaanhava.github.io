@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="vaanhava - portfolio">
+    <meta name="author" content="vaanhava">
+    <title>vaanhava - portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel=icon href="images/h.png" sizes="16x16" type="image/png">
+    <link rel=icon href="images/h.png" sizes="32x32 48x48" type="image/vnd.microsoft.icon">
+    <link rel=icon href="images/h.png" sizes="128x128 512x512 8192x8192 32768x32768">
+    <link rel=icon href="images/h.png" sizes="57x57" type="image/png">
+    <link rel=icon href="images/h.png" sizes="any" type="image/svg+xml">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+    
+<body id="top">
+
+    <main>
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="bi bi-house-heart-fill"></i>
+                    <span>vaanhava</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_1">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_2">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_3">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_4">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-8 col-12 mx-auto">
+                        <h1 class="text-center blue-text">HI,</h1>
+                        <h1 class="text-white text-center">I am vaanhava,</h1>
+
+                        <h6 class="text-center">a game developer student & full-stack web developer</h6>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--<section class="featured-section">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                    <div class="custom-block bg-white shadow-lg">
+                        <a href="topics-detail.html">
+                            <div class="d-flex">
+                                <div>
+                                    <h5 class="mb-2">Web Design</h5>
+
+                                    <p class="mb-0">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
+                                </div>
+
+                                <span class="badge bg-design rounded-pill ms-auto">14</span>
+                            </div>
+
+                            <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                    <div class="custom-block custom-block-overlay">
+                        <div class="d-flex flex-column h-100">
+                            <img src="images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
+
+                            <div class="custom-block-overlay-text d-flex">
+                                <div>
+                                    <h5 class="text-white mb-2">Finance</h5>
+
+                                    <p class="text-white">Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.</p>
+
+                                    <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
+                                </div>
+
+                                <span class="badge bg-finance rounded-pill ms-auto">25</span>
+                            </div>
+
+                            <div class="social-share d-flex">
+                                <p class="text-white me-4">Share:</p>
+
+
+                            </div>
+
+                            <div class="section-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>-->
+
+
+        <section class="explore-section section-padding" id="section_2">
+            <div class="container">
+                <div class="col-12 text-center">
+                    <h2 class="mb-4">Portfolio</h2>
+                </div>
+
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane" aria-selected="true">Game Development</button>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false">Web Development</button>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance-tab-pane" type="button" role="tab" aria-controls="finance-tab-pane" aria-selected="false">Graphic Design</button>
+                        </li>
+
+                        <!--<li class="nav-item" role="presentation">
+        <button class="nav-link" id="music-tab" data-bs-toggle="tab" data-bs-target="#music-tab-pane" type="button" role="tab" aria-controls="music-tab-pane" aria-selected="false">Minecraft Projects</button>
+    </li>-->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12">
+                        <div class="tab-content" id="myTabContent">
+
+                            <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
+                                <p></p>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                        <div class="custom-block bg-white shadow-lg">
+                                            <div class="d-flex">
+                                                <div>
+
+                                                    <h5 class="mb-2">Forest Brew | 2023</h5>
+
+                                                    <p class="mb-0">Story driven potion crafting game, made with Unreal Engine 5.3.</p>
+                                                    <p class="mb-0"><b>Main responsibilities:</b></p>
+                                                    <ul>
+                                                        <li>
+                                                            prototyping, implementation, testing, and refining of some of the core gameplay mechanics
+                                                        </li>
+                                                        <li>
+                                                            design and implementation of UI, story, and audio elements
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <span class="badge w3-tag w3-green">3D</span>
+                                                <span class="badge w3-tag w3-teal">PC</span>
+                                            </div>
+
+                                            <img src="images/forestbrew.PNG" class="custom-block-image img-fluid" alt="">
+
+                                            <a href="https://eyevi.itch.io/forest-brew" class="btn custom-btn mt-2 mt-lg-3" target="_blank">Play the Game</a>
+                                            <a href="" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                        <div class="custom-block bg-white shadow-lg">
+
+                                            <div class="d-flex">
+                                                <div>
+                                                    <h5 class="mb-2">Miner Mice | 2022</h5>
+
+                                                    <p class="mb-0">Rogue-lite base defence -game made with Unity.</p>
+                                                    <p class="mb-0"><b>Main responsibilities:</b></p>
+                                                    <ul>
+                                                        <li>
+                                                            prototype of core gameplay loop with touch screen mechanics
+                                                        </li>
+                                                        <li>
+                                                            implementing enemy AI and scalable wave spawner system
+                                                        </li>
+                                                        <li>
+                                                            implementing UI elements, assets and animations
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                <span class="badge w3-tag w3-blue">2D</span>
+                                                <span class="badge w3-tag w3-lime">MOBILE</span>
+
+                                            </div>
+
+                                            <img src="images/minermice.PNG" class="custom-block-image img-fluid" alt="Miner Mice">
+                                            <a href="" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="custom-block bg-white shadow-lg">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <h5 class="mb-2">Memory Game | 2024 (2018)</h5>
+
+                                                    <p class="mb-0">Card matching memory game made with HTML, CSS and jQuery.</p><br />
+                                                    <p class="mb-0">Includes 3 difficulties (easy, medium, hard). </p><br />
+                                                    <p class="mb-0">Originally made as a solo school project in 2018, updated and expanded in 2024.</p>
+                                                </div>
+                                                <span class="badge w3-tag w3-blue">2D</span>
+                                                <span class="badge w3-tag w3-orange">WEB</span>
+                                            </div>
+                                            <img src="images/memorygame.PNG" class="custom-block-image img-fluid" alt="Memory Game">
+                                            <a href="https://vaanhava.github.io/memorygame/" class="btn custom-btn mt-2 mt-lg-3" target="_blank">Play the Game</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Web Dev -->
+                            <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
+                                        <div class="custom-block bg-white shadow-lg">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <h5 class="mb-2">vaanhava - portfolio | 2024 - present</h5>
+                                                    <span class="badge w3-tag w3-blue">HTML5</span>
+                                                    <span class="badge w3-tag w3-orange">CSS</span>
+                                                    <span class="badge w3-tag w3-lime">JS</span>  <br />
+                                                </div>
+                                            </div>
+                                            <img src="images/vaanhava_portfolio.PNG" class="img-fluid" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
+                                        <div class="custom-block bg-white shadow-lg">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <h5 class="mb-2">Utajärven Haloset -sukuseura | 2022 - present</h5>
+                                                    <span class="badge w3-tag w3-blue">HTML5</span>
+                                                    <span class="badge w3-tag w3-orange">CSS</span>
+                                                    <span class="badge w3-tag w3-lime">JS</span>
+                                                    <span class="badge w3-tag w3-teal">PHP</span>
+                                                    <span class="badge w3-tag w3-black">WordPress</span>   <br />
+                                                </div>
+                                            </div>
+                                            <img src="images/uh_website.PNG" class="img-fluid" alt="">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <!-- Graphic Design -->
+                            <div class="tab-pane fade" id="finance-tab-pane" role="tabpanel" aria-labelledby="finance-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                        <div class="custom-block bg-white shadow-lg">
+                                            <a href="topics-detail.html">
+                                                <div class="d-flex">
+                                                    <div>
+                                                        <h5 class="mb-2">Concert Flyer</h5>
+                                                    </div>
+                                                </div>
+                                                <img src="images/Vappulaulajaiset_konserttijuliste.png" class="img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                        <div class="custom-block bg-white shadow-lg">
+                                            <a href="topics-detail.html">
+                                                <div class="d-flex">
+                                                    <div>
+                                                        <h5 class="mb-2">Concert Flyer</h5>
+                                                    </div>
+                                                </div>
+                                                <img src="images/Konserttimainos_Sota-ajan_suosikkisavelmia.png" class="img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="custom-block bg-white shadow-lg">
+                                            <a href="topics-detail.html">
+                                                <div class="d-flex">
+                                                    <div>
+                                                        <h5 class="mb-2">Concert Flyer</h5>
+                                                    </div>
+                                                </div>
+                                                <img src="images/joulukonsertin_mainos.png" class="img-fluid" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Minecraft Projects
+    <div class="tab-pane fade" id="music-tab-pane" role="tabpanel" aria-labelledby="music-tab" tabindex="0">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                <div class="custom-block bg-white shadow-lg">
+                    <a href="topics-detail.html">
+                        <div class="d-flex">
+                            <div>
+                                <h5 class="mb-2">Composing Song</h5>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                            </div>
+
+                            <span class="badge bg-music rounded-pill ms-auto">45</span>
+                        </div>
+
+                        <img src="images/topics/undraw_Compose_music_re_wpiw.png" class="custom-block-image img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                <div class="custom-block bg-white shadow-lg">
+                    <a href="topics-detail.html">
+                        <div class="d-flex">
+                            <div>
+                                <h5 class="mb-2">Online Music</h5>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                            </div>
+
+                            <span class="badge bg-music rounded-pill ms-auto">45</span>
+                        </div>
+
+                        <img src="images/topics/undraw_happy_music_g6wc.png" class="custom-block-image img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="custom-block bg-white shadow-lg">
+                    <a href="topics-detail.html">
+                        <div class="d-flex">
+                            <div>
+                                <h5 class="mb-2">Podcast</h5>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                            </div>
+
+                            <span class="badge bg-music rounded-pill ms-auto">20</span>
+                        </div>
+
+                        <img src="images/topics/undraw_Podcast_audience_re_4i5q.png" class="custom-block-image img-fluid" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="timeline-section section-padding" id="section_3">
+            <div class="section-overlay"></div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 text-center">
+                        <h2 class="text-white mb-4">Resume</h2>
+                    </div>
+
+                    <div class="col-12 text-center mt-5">
+                        <p class="text-white">
+                            <a href="#" class="btn custom-btn custom-border-btn ms-3">Download my CV (pdf)</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact-section section-padding section-bg" id="section_4">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 text-center">
+                        <h2 class="text-b mb-4">Contact</h2>
+
+                        <ul class="social-icon">
+                            <li class="custom-icon-holder">
+                                <a href="mailto:vaanhava@gmail.com" title="email" class="bi bi-envelope-fill"></a>
+                            </li>
+                            <li class="custom-icon-holder">
+                                <a href="https://www.linkedin.com/in/vaanhava/" class="bi bi-linkedin" target="_blank" title="linkedin @vaanhava"></a>
+                            </li>
+
+                            <li class="custom-icon-holder">
+                                <a href="https://vaanhava.github.io/" class="bi bi-github" target="_blank" title="github @vaanhava"></a>
+                            </li>
+
+                            <li class="custom-icon-holder">
+                                <a href="https://vaanhava.itch.io/" class="bi bi-shop-window" target="_blank" title="itch.io @vaanhava"></a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <!--<div class="col-lg-6 col-12">
+                    <form action="#" method="post" class="custom-form contact-form" role="form">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="form-floating">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="" autocomplete="name">
+
+                                    <label for="name">Name</label>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="form-floating">
+                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="" autocomplete="email">
+
+                                    <label for="email">Email address</label>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-12">
+                                <div class="form-floating">
+                                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required="">
+
+                                    <label for="subject">Subject</label>
+                                </div>
+
+                                <div class="form-floating">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Your message"></textarea>
+
+                                    <label for="message">Your message</label>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-12 ms-auto">
+                                <button type="submit" class="form-control">Submit</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+                                <div class="col-lg-5 col-12 mx-auto mt-5 mt-lg-0">
+
+                                </div>-->
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-small">
+        <div class="container">
+            <div class="row">
+                    <p class="text-center copyright-text">© vaanhava 2024</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
